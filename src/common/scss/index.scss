@@ -1,0 +1,31 @@
+@import "./reset.scss";
+@import "./base.scss";
+
+
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2171247_4rjjoonwtzy.eot?t=1604221773114'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_2171247_4rjjoonwtzy.eot?t=1604221773114#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOgAAsAAAAAB7gAAANTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDIIJ+ATYCJAMMCwgABCAFhG0HNxvFBsgOJaHAwGBgIEBgPPy3H+u+mfmCaxKNdD9dNIkmCNlCgdaIpECX3S1hD3PqyU7J7ZBVQHIKxI6csDNFA1YG+AfiNwAEXtsT6d0/7h23xOdrW05zDP/UBRgHFNDYi6xAAvKG6SUN1MXNBDrNSoJ2qxo6IFjh9grEg9k4CsEVnTJQHFqh7phYIN4hQJu2Cc8AvCXfj3+QEcEgqTK4W+3dVxqg7LvuAxf5ODeQObi3s4BNI2MNKMR5p+2MmMXWiDqNTDecXStC2io4Pk7CsxT1Rf94iajBLewGSzCe+K4LWATf/AoJZFCjwSuAD4gbHp6VyWlTYsPCAlZ5PB1HvPlROj+z4xxy+111dSi+uNvn6z39KEo6+eTGVfe1m093PL5+hV/u3Ln9NJ9xPf0KjCT4On2+rsn3G2cE7LsZq526PkfHL7/ySG0/3vE4foZoEzyevnsefMRb+dAfedSnFU+kGrJJWJkxjNasFYbF+J6hxcnb7iM+RY1Qp5SnsZ5umvYrhtHataF4mI4MrNRHXQ68HLW1o6Bja2VBZdJu/83zUST8bG/bjvI5DZtzt8HVdXWIKKjBO0IxNMDlaZtLpam8r5LL0uHoS+HlcyLrkaHvMVB3SxrQQtfI5ryBsh9Cg0Gpi54iywjJ+smT9XoUWV5mdKZmGQkBzeTJsiyg5eZWDZSd6KwIgkuA/1/zVnFGklhXID/9t984moiZNjyp6H8bqgP4ure/EQqmOUB7V/bgL/EnlhVLCcuL5gU8x57tljwSkMPl/k0pDHq/XDEyuZDQGikgacxA1ppDFdwaVLqsQ621AZ1WVU/vMoQSRQkBVmwCEPpdgqTXJ2T9nqMK7h1URn2HWn+I0Okkpi3YZSHMkp6SUUYMeGwFNiuaQ/WNTEqL24hxiW2UloUJvotQlzmI01PS6slq4iB0iyGupcYMxlSsUs2Oq8B2xGbTsJNqFqKwFBNjzoLUVLXrTSmKZgfJDooYxRAG2JgVMDOFxkGNqjNS4/NtCKMlbEbRAUTD3oWgXMz1Y+lSpE1AVcsckxCvco3LUkYZGEaFqSiNHVYFLITNi2kwZ3c7C0LBpDAtiDgVSEWV1KmylOMV9udbA53cQTkEJCIdlEezgwSuCKMrlhAAAA==') format('woff2'),
+  url('//at.alicdn.com/t/font_2171247_4rjjoonwtzy.woff?t=1604221773114') format('woff'),
+  url('//at.alicdn.com/t/font_2171247_4rjjoonwtzy.ttf?t=1604221773114') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_2171247_4rjjoonwtzy.svg?t=1604221773114#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.music-mine:before {
+  content: "\e64a";
+}
+
+.music-yinyue:before {
+  content: "\e680";
+}
+
+
+

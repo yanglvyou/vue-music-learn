@@ -4,7 +4,9 @@
     <m-header></m-header>
     <tab></tab>
       <i class="music-yinyue"></i>
-    <router-view />
+    <keep-alive>
+      <router-view />
+    </keep-alive>
   </div>
 </template>
 

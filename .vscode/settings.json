@@ -14,4 +14,7 @@
     "files.associations": {
       "*.wpy": "vue"
   },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }

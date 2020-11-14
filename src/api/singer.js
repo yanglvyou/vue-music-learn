@@ -1,4 +1,4 @@
-import jsonp from 'common/js/jsonp'
+import jsonp from '@/common/js/jsonp'
 import { commonParams, options } from './config'
 
 export function getSingerList () {
@@ -14,7 +14,6 @@ export function getSingerList () {
     needNewCode: 0,
     platform: 'yqq'
   })
-
   return jsonp(url, data, options)
 }
 
